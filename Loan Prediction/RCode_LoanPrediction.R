@@ -12,7 +12,7 @@ install.packages("corrplot")
 pacman::p_load(corrgram,DataCombine,C50,gridExtra,ggplot2,caret,randomForest,inTrees,DMwR,corrplot)
 
 rm(list=ls())
-setwd('D:/Data Science/Miscellaneous/Loan Prediction')
+setwd(path)
 getwd()
 train = read.csv('train.csv')
 str(train)
